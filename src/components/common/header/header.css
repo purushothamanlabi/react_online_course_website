@@ -1,0 +1,26 @@
+.navimg{
+width: 7rem;
+height: 3rem;
+}
+
+.btn-login{
+  width: 4.5rem !important;
+  height: 2.5rem !important;
+}
+.btn-login a{
+  position: relative;
+  top: -8px;
+  right: 15px;
+
+}
+
+
+@media only screen and (max-width:768px) {
+  .btn-login{
+    display: none;
+  }
+  .backcol{
+    background: #fcfafa;
+  }
+  
+}

@@ -1,0 +1,91 @@
+.recent .text {
+  padding: 30px;
+}
+.recent .content{
+  margin-right: 1rem !important;
+}
+.recent .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+}
+.recent .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+.recent p {
+  color: #72809d;
+}
+
+.box text{
+  padding: 10px !important;
+}
+.cusbtn4{
+  background-color: #f39c12;
+  height: 3.3rem;
+}
+.recent .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}
+.recent .mytext{
+  padding: 10px 30px !important;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 3rem;
+  
+}
+
+@media screen and (max-width:1312px) {
+  .grid4 {
+    
+    grid-template-columns: repeat(3, 1fr) !important;
+    min-width: 100px !important;
+    max-width: auto !important;
+  }
+}
+
+
+@media screen and (max-width:1036px) {
+  .grid4 {
+  
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .grid4 {
+  
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+} 
+
+@media screen and (max-width:450px) {
+  .grid4 {
+  
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+} 
+
+
+/* Rating.css */
+
+.rating-container {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ccc;
+  margin: 0 2px;
+}
+
+.star.active {
+  color: #f39c12;
+}

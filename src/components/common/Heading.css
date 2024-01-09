@@ -1,0 +1,17 @@
+.heading h1{
+    font-size: 3rem !important;
+
+}
+
+@media screen and (max-width: 857px) {
+    .heading h1{
+        font-size: 2rem !important;
+    }
+    
+  }
+
+  @media screen and (max-width: 623px) {
+    .heading h1{
+        font-size: 3rem !important;
+    }
+  }
